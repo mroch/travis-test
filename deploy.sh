@@ -1,4 +1,4 @@
-#!/bin/bash -ex
+#!/bin/bash -e
 
 which rvm
 printf "travis_fold:start:rvm_info_1\n"

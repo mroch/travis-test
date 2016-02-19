@@ -16,5 +16,5 @@ before_deploy:
 deploy:
   provider: script
   repo: mroch/travis-test
-  script: bash -ex deploy.sh
+  script: bash -e deploy.sh
   skip_cleanup: true
