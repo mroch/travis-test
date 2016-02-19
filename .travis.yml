@@ -4,4 +4,7 @@ compiler:
 
 script:
 - cat ~/.bashrc
-- cat ~/.bash_profile
+
+after_success:
+- which rvm
+- rvm info
