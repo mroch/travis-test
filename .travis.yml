@@ -8,3 +8,9 @@ script:
 after_success:
 - which rvm
 - rvm info
+
+deploy:
+  provider: script
+  repo: mroch/travis-test
+  script: bash -ex deploy.sh
+  skip_cleanup: true
